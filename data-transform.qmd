@@ -480,7 +480,7 @@ flights |>
 Even though this pipeline has four steps, it's easy to skim because the verbs come at the start of each line: start with the `flights` data, then filter, then mutate, then select, then arrange.
 
 What would happen if we didn't have the pipe?
-We could nest each function call inside the previous call:
+We could nest each function call inside the next call:
 
 ```{r}
 #| results: false
